@@ -2,7 +2,8 @@
 
 var path = require('path');
 var Prerenderer = require('@prerenderer/prerenderer');
-var PuppeteerRenderer = require('@prerenderer/renderer-puppeteer');
+// const PuppeteerRenderer = require('@prerenderer/renderer-puppeteer')
+var PuppeteerRenderer = require('renderer-puppeteer-fix-puppeteer');
 
 var _require = require('html-minifier'),
     minify = _require.minify;

@@ -1,5 +1,5 @@
 {
-  "name": "prerender-spa-plugin",
+  "name": "prerender-spa-plugin-fix",
   "version": "3.4.0",
   "description": "Flexible, framework-agnostic static site generation for sites and SPAs built with webpack.",
   "license": "MIT",
@@ -51,7 +51,8 @@
   "dependencies": {
     "@prerenderer/prerenderer": "^0.7.2",
     "@prerenderer/renderer-puppeteer": "^0.2.0",
-    "html-minifier": "^3.5.16"
+    "html-minifier": "^3.5.16",
+    "renderer-puppeteer-fix-puppeteer": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^3.9.0",

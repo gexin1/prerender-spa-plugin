@@ -1,6 +1,7 @@
 const path = require('path')
 const Prerenderer = require('@prerenderer/prerenderer')
-const PuppeteerRenderer = require('@prerenderer/renderer-puppeteer')
+// const PuppeteerRenderer = require('@prerenderer/renderer-puppeteer')
+const PuppeteerRenderer = require('renderer-puppeteer-fix-puppeteer')
 const { minify } = require('html-minifier')
 
 function PrerenderSPAPlugin (...args) {
